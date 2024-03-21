@@ -1,6 +1,7 @@
 .cards {
     padding: 4rem;
-    background: #fff;
+    background: rgb(251,63,63);
+  background: linear-gradient(216deg, rgba(251,63,63,1) 0%, rgba(152,52,52,1) 14%, rgba(124,40,40,1) 22%, rgba(80,32,106,1) 56%, rgba(56,17,71,1) 62%, rgba(55,8,51,1) 93%);
   }
   
   h1 {
@@ -15,7 +16,9 @@
     width: 90%;
     margin: 0 auto;
   }
-  
+  .cards-header-text{
+    color: #fff;
+  }
   .cards__wrapper {
     position: relative;
     margin: 50px 0 45px;
@@ -30,6 +33,7 @@
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
+    
   }
   
   .cards__item__link {
@@ -94,7 +98,7 @@
   }
   
   .cards__item__text {
-    color: #252e48;
+    color: #fff;
     font-size: 18px;
     line-height: 24px;
   }

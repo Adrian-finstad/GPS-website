@@ -21,7 +21,7 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo">
+          <Link to="/home" className="navbar-logo">
             <img src="images/logo.png" alt="gps-logo" height="75px" />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
@@ -35,7 +35,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/services"
+                to="/AboutUs"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -44,7 +44,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/products"
+                to="/Esport"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -53,15 +53,19 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/sign-up"
+                to="https://tshirt.no/butikk/jokkimsen-shop/"
+                target="_blank"
                 className="nav-links-mobile"
-                onClick={closeMobileMenu}
               >
                 GPS-butikk
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">GPS-butikk</Button>}
+          {button && (
+            <Link to="https://tshirt.no/butikk/jokkimsen-shop/" target="_blank">
+              <Button buttonStyle="btn--outline">GPS-butikk</Button>
+            </Link>
+          )}
         </div>
       </nav>
     </>

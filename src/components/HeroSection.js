@@ -2,6 +2,11 @@ import React from "react";
 import "./HeroSection.css";
 import "../App.css";
 import { Button } from "./Button";
+import { Link } from "react-router-dom";
+
+//onClick={event=> window.location.href='/your-href'};//
+// ^Vil denne fungere?
+
 function HeroSection() {
   return (
     <div className="hero-container">
@@ -10,21 +15,24 @@ function HeroSection() {
         <h1>VELKOMMEN TIL GPS!</h1>
         <h4>Er du klar til å bli med på moroa?</h4>
         <div className="hero-btns">
-          <Button
-            className="btns"
-            buttonStyle="btn--outline"
-            buttonSize="btn--large"
-          >
-            OM OSS
-          </Button>
+          <Link to="/AboutUs">
+            <Button
+              className="btns"
+              buttonStyle="btn--outline"
+              buttonSize="btn--large"
+            >
+              OM OSS
+            </Button>
+          </Link>
+
           <Button
             className="btns"
             buttonStyle="btn--primary"
             buttonSize="btn--large"
-            onClick={console.log("hey")}
+            onClick={(event) => window.open("https://discord.gg/gps", "_blank")}
           >
-            <a href="https://discord.gg/aER5PH3e" /> DISCORD{" "}
-            <i className="fa-brands fa-discord" />
+            {" "}
+            DISCORD <i className="fa-brands fa-discord" />
           </Button>
         </div>
       </div>
