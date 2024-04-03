@@ -14,14 +14,12 @@
     position: relative; 
 }
 .text{
-    color:#fff;
+    color: #D3D3D3;
     font-family: "Public Sans", sans-serif;
 }
  .about-us-container{
     width: 50vw;
-    height: 100%;
-     align-items:center; 
-     justify-content:center; 
+    height: 100%; 
 position: relative;
 margin: 0 auto;
 margin-bottom: 25px;
@@ -32,7 +30,7 @@ margin-bottom: 25px;
 } 
 .about-us-image{
     margin: 30px;
-} 
+}  
 
 .about-us-image:hover{
     transform: scale(1.1);

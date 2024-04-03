@@ -22,7 +22,11 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/home" className="navbar-logo">
-            <img src="images/logo.png" alt="gps-logo" height="75px" />
+            <img
+              className="h-auto max-w-20"
+              src="images/logo.png"
+              alt="gps-logo"
+            />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />

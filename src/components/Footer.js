@@ -45,7 +45,7 @@ function Footer() {
         <div class="social-media-wrap">
           <div class="footer-logo">
             <Link to="/home">
-              <img src="images/logo.png" alt="logo" height="100px" />
+              <img className="object-contain h-48 w-96" src="images/logo.png" />
             </Link>
           </div>
           <small class="website-rights">GPS © 2024</small>
