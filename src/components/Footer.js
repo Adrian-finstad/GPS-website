@@ -24,20 +24,14 @@ function Footer() {
       </section>
       <div class="footer-links">
         <div className="footer-link-wrapper">
-          <div class="footer-link-items">
-            <h2>Om oss</h2>
-            <Link to="/sign-up">Admingruppa</Link>
-            <Link to="/">Jokkimsen & Sgt.Satan</Link>
-            <Link to="/">Gathers</Link>
-            <Link to="/">Community-events</Link>
-            <Link to="/">Vår visjon</Link>
+          <div class="footer-link-items text-xl">
+            <Link to="/AboutUs">Om oss</Link>
+            <Link to="/Esport">Gathers & community events</Link>
           </div>
-          <div class="footer-link-items">
-            <h2>Kontakt oss</h2>
-            <Link to="/">Kontaktinformasjon</Link>
-            <Link to="/">Teknisk/Web-Support</Link>
-            <Link to="/">E-sport</Link>
-            <Link to="/">Sponsor</Link>
+          <div class="footer-link-items text-xl">
+            <Link to="/ContactUs">Kontakt oss</Link>
+            <Link to="/Esport">E-sport</Link>
+            <Link to="/ContactUs">Sponsor</Link>
           </div>
         </div>
       </div>

@@ -9,18 +9,20 @@ import KokPlayers from "../KokPlayers";
 function Esport() {
   return (
     <>
-      <h1 className="header text-3xl font-bold underline">GPS-Esport</h1>
-      <div className="flex flex-col items-center space-y-16 ">
-        <div className="w-1/2">
-          <PogPlayers />
-        </div>
-        <div className="w-1/2">
-          <KokPlayers />
-        </div>
-        <div className="w-1/2">
-          <GamingInformation />
-        </div>
-      </div>
+      <GamingInformation />
+
+      <PogPlayers />
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <KokPlayers />
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <Footer />
     </>
   );
