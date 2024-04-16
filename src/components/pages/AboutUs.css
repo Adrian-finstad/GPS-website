@@ -1,4 +1,4 @@
-
+/* 
 .about-us-wrapper{
      background: rgb(251,63,63);
     background: linear-gradient(216deg, rgba(251,63,63,1) 0%, rgba(152,52,52,1) 14%, rgba(124,40,40,1) 22%, rgba(80,32,106,1) 56%, rgba(56,17,71,1) 62%, rgba(55,8,51,1) 93%); 
@@ -11,9 +11,9 @@
     box-sizing: border-box;
     text-align: center;
     /* min-height: 100vh; */
-    position: relative; 
-}
-.text{
+    /* position: relative; 
+} */
+/* .text{
     color: #D3D3D3;
     font-family: "Public Sans", sans-serif;
 }
@@ -30,9 +30,9 @@ margin-bottom: 25px;
 } 
 .about-us-image{
     margin: 30px;
-}  
+}   */
 
-.about-us-image:hover{
+/* .about-us-image:hover{
     transform: scale(1.1);
     transition-duration: 600ms;
 
@@ -54,6 +54,6 @@ margin-bottom: 25px;
 .footer-div{
     position:relative;
     
-}
+} */ */
 
 

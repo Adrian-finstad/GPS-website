@@ -11,7 +11,7 @@ function KokPlayers() {
         <div className="max-w-96 text-white text-center shadow-sm brightness-50 hover:brightness-105 hover:scale-105 duration-200">
           <img
             className="max-w-96 max-h-96 peer"
-            src="https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXA6Q1NL4kmrAlOA0_FVPCi2t_fUkRxNztDu4WvPgln3_b3YzxL6Nmkq5aKhf71Pa_TxCUDuZ0njLnC94r00Vbh_ktvMW7zJoCcdlQ9ZFiC-AfryOrojJC_6smd1zI97aG-vIXM/360fx360f"
+            src="https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXA6Q1NL4kmrAlOA0_FVPCi2t_fUkRxNztDu4WvPgln3_b3YzxL6Nmkq5aKhf71Pa_S2DMHsZN13rmS942n2lCy-hBoN2jzI4WWdAI5YVHZ-wC3wbvu1sO86ZXXiSw0aai7gyw/360fx360f"
             alt="satan"
           />
           <Link

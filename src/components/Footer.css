@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+   position: sticky;
   }
   
   .footer-subscription {
@@ -52,6 +52,7 @@
     max-width: 1000px;
     display: flex;
     justify-content: center;
+    align-items: center;
   }
   
   .footer-link-wrapper {

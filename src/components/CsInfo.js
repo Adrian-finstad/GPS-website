@@ -1,5 +1,4 @@
 import React from "react";
-import "./CsInfo.css";
 
 function GamingInformation() {
   return (
@@ -29,7 +28,7 @@ function GamingInformation() {
           </div>
           <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
             <img
-              className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
+              className="w-96 max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
               src="https://images.squarespace-cdn.com/content/v1/5fe4caeadae61a2f19719512/1610050540111-TARZ5UAIWY18UB4VZU48/15.jpg?format=1000w"
               alt=""
             />
@@ -48,7 +47,7 @@ function GamingInformation() {
                 <ul role="list" className="mt-8 space-y-8 text-white">
                   <li className="flex gap-x-3">
                     <span className="font-sans">
-                      <strong className="font-semibold text-gray-900 underline underline-offset-2">
+                      <strong className="font-semibold text-black underline underline-offset-2">
                         Gathers skal være gøy:
                       </strong>{" "}
                       Det hender naturligvis fra tid til annen at
@@ -60,7 +59,7 @@ function GamingInformation() {
                   </li>
                   <li className="flex gap-x-3">
                     <span className="font-sans">
-                      <strong className="font-semibold text-gray-900 underline underline-offset-2">
+                      <strong className="font-semibold text-black underline underline-offset-2">
                         Gathers skal være inkluderende:
                       </strong>{" "}
                       Vi oppfordrer til at alle variasjoner og sammensetninger
@@ -76,7 +75,7 @@ function GamingInformation() {
                   </li>
                   <li className="flex gap-x-3">
                     <span className="font-sans">
-                      <strong className="font-semibold text-gray-900 underline underline-offset-2">
+                      <strong className="font-semibold text-black underline underline-offset-2">
                         Alle kan lære av hverandre, og man lærer best av
                         positive tilbakemeldinger!
                       </strong>{" "}

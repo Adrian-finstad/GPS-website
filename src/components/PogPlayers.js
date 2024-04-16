@@ -25,8 +25,9 @@ function PogPlayers() {
           <p className="italic underline">Rolle: Entry fragger/Support </p>
 
           <p className="opacity-0 peer-hover:opacity-100 peer-hover:duration-150 peer-hover:ease-in">
-            Her kan det komme til å stå mer utvidet tekst om spilleren, som ikke
-            vises før man hovrer over spilleren.
+            Gamlefar som elsker aftereight. Svekket reaksjonsevne pga alder, men
+            treffer når han har dagen. Pappagamer i all sin prakt, med
+            pappakropp og pappahumor.
           </p>
         </div>
         <div className="max-w-96 text-white text-center shadow-sm brightness-50 hover:brightness-105 hover:scale-105 duration-200">
@@ -46,8 +47,9 @@ function PogPlayers() {
           </Link>
           <p className="italic underline">Rolle: AWP'er/IGL</p>
           <p className="opacity-0 peer-hover:opacity-100 peer-hover:duration-150 peer-hover:ease-in">
-            Her kan det komme til å stå mer utvidet tekst om spilleren, som ikke
-            vises før man hovrer over spilleren.
+            Vestlending kjent for sine vestlending-tilt. Ingen skjønner hva han
+            sier, men han treffer hoder og vi forstår hans cs-språk. Samboer,
+            far til 2 og driftssjef i jobb.
           </p>
         </div>
         <div className="max-w-96 text-white text-center shadow-sm brightness-50 hover:brightness-105 hover:scale-105 duration-200">
@@ -66,8 +68,10 @@ function PogPlayers() {
           </Link>
           <p className="italic underline">Rolle: Lurker/Entry fragger</p>
           <p className="opacity-0 peer-hover:opacity-100 peer-hover:duration-150 peer-hover:ease-in">
-            Her kan det komme til å stå mer utvidet tekst om spilleren, som ikke
-            vises før man hovrer over spilleren.
+            Musiker’n! Når han ikke skyter hoder, turnerer han verden rundt. Når
+            vi er heldige at han er hjemme, kan man alltid stole på at hoder
+            ruller på server. «Dreper» deg med lyden av bly eller lyden av
+            toner.
           </p>
         </div>
         <div className="max-w-96 text-white text-center shadow-sm brightness-50 hover:brightness-105 hover:scale-105 duration-200">
@@ -84,8 +88,9 @@ function PogPlayers() {
           </Link>
           <p className="italic underline">Rolle: Support</p>
           <p className="opacity-0 peer-hover:opacity-100 peer-hover:duration-150 peer-hover:ease-in">
-            Her kan det komme til å stå mer utvidet tekst om spilleren, som ikke
-            vises før man hovrer over spilleren.
+            Bergenser’n! Sportsidiot og yngstemann. Fikser det meste av
+            utility-bruk så de andre på laget slipper. Ofte i klammeri med
+            Hansemann med bakgrunn i at de snakker dialekter ingen forstår.
           </p>
         </div>
         <div className="max-w-96 text-white text-center shadow-sm brightness-50 hover:brightness-105 hover:scale-105 duration-200">
@@ -101,8 +106,9 @@ function PogPlayers() {
           </Link>
           <p className="italic underline">Rolle: Entry fragger/Support</p>
           <p className="opacity-0 peer-hover:opacity-100 peer-hover:duration-150 peer-hover:ease-in">
-            Her kan det komme til å stå mer utvidet tekst om spilleren, som ikke
-            vises før man hovrer over spilleren.
+            Forvillet vestlending, med innslag av trønder, bosatt i Oslo. Rolig
+            som skjæra på tunet - før den flyr avgårde. Potet på server som
+            misbrukes i flere roller der vi andre ikke når opp.
           </p>
         </div>
         <div className="max-w-96 text-white text-center shadow-sm brightness-50 hover:brightness-105 hover:scale-105 duration-200">
@@ -121,8 +127,10 @@ function PogPlayers() {
           </Link>
           <p className="italic underline">Rolle: Support(Step-in)</p>
           <p className="opacity-0 peer-hover:opacity-100 peer-hover:duration-150 peer-hover:ease-in">
-            Her kan det komme til å stå mer utvidet tekst om spilleren, som ikke
-            vises før man hovrer over spilleren.
+            Tidligere analytiker for 777, og vår teori-master. Gjør man ikke som
+            Glimoen sier, får man høre det. Mysens store sønn, som analyserer
+            matcher og påpeker alt vi gjør feil (og evt det vi gjør riktig).
+            Eier egen hest.
           </p>
         </div>
         <div className="max-w-96 text-white text-center shadow-sm brightness-50 hover:brightness-105 hover:scale-105 duration-200">
@@ -141,8 +149,9 @@ function PogPlayers() {
           </Link>
           <p className="italic underline">Rolle: Entry fragger</p>
           <p className="opacity-0 peer-hover:opacity-100 peer-hover:duration-150 peer-hover:ease-in">
-            Her kan det komme til å stå mer utvidet tekst om spilleren, som ikke
-            vises før man hovrer over spilleren.
+            Æresmedlem i rullestolpeek. Ingen i rullestol som treffer bedre enn
+            Larsin. Jovial og kunnskapsrik bergenser, vår egen level 10 på
+            faceit. Misser aldri en clutch.
           </p>
         </div>
       </div>

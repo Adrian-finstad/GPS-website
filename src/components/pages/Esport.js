@@ -12,6 +12,7 @@ function Esport() {
       <GamingInformation />
 
       <PogPlayers />
+
       <br></br>
       <br></br>
       <br></br>

@@ -24,14 +24,10 @@ function Footer() {
       </section>
       <div class="footer-links">
         <div className="footer-link-wrapper">
-          <div class="footer-link-items text-xl">
+          <div class="footer-link-items text-xl space-y-3">
             <Link to="/AboutUs">Om oss</Link>
-            <Link to="/Esport">Gathers & community events</Link>
-          </div>
-          <div class="footer-link-items text-xl">
-            <Link to="/ContactUs">Kontakt oss</Link>
-            <Link to="/Esport">E-sport</Link>
-            <Link to="/ContactUs">Sponsor</Link>
+            <Link to="/Esport">Gathers, E-sport & community events</Link>
+            <text className="text-white">Kontakt: gps.kontakt@hotmail.com</text>
           </div>
         </div>
       </div>
@@ -39,7 +35,11 @@ function Footer() {
         <div class="social-media-wrap">
           <div class="footer-logo">
             <Link to="/home">
-              <img className="object-contain h-48 w-96" src="images/logo.png" />
+              <img
+                className="object-contain sm:h-48 h-32 w-36 sm:w-96"
+                alt="gps-logo"
+                src="images/logo.png"
+              />
             </Link>
           </div>
           <small class="website-rights">GPS © 2024</small>

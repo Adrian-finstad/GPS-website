@@ -11,7 +11,7 @@ function HeroSection() {
   return (
     <div className="hero-container">
       <video src="/videos/Streamvidutenstart.mp4" autoPlay loop muted />
-      <div className="hero-text">
+      <div className="hero-text text-lg sm:text-2xl">
         <h1>VELKOMMEN TIL GPS!</h1>
         <h4>Er du klar til å bli med på moroa?</h4>
         <div className="hero-btns">
