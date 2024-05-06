@@ -70,6 +70,24 @@ function Navbar() {
               <Button buttonStyle="btn--outline">GPS-butikk</Button>
             </Link>
           )}
+          <ul className="nav-item">
+            <Link to="https://www.twitch.tv/Jokkimsen" target="_blank">
+              <img
+                className="nav-links object-contain max-w-max"
+                src="/images/Jokkimsen.png"
+                alt="sgtsatan"
+              />
+            </Link>
+          </ul>
+          <ul className="nav-item">
+            <Link to="https://www.twitch.tv/sergeantsatanlive" target="_blank">
+              <img
+                className="nav-links object-contain max-w-max"
+                src="/images/Disc_3_Clean.png"
+                alt="sgtsatan"
+              />
+            </Link>
+          </ul>
         </div>
       </nav>
     </>
